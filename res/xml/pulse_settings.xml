@@ -20,12 +20,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/pulse_settings_title" >
 
-    <com.haloui.settings.preferences.SecureSettingSwitchPreference
+    <lineageos.preference.SecureSettingMainSwitchPreference
         android:key="lockscreen_pulse_enabled"
-        android:title="@string/pulse_settings_title"
-        android:summary="@string/pulse_settings_summary"
-        android:defaultValue="false" />
-        
+        android:title="@string/enable" />
+
     <com.haloui.settings.preferences.SecureSettingListPreference
         android:key="pulse_renderer"
         android:title="@string/pulse_renderer"
