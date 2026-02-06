@@ -17,6 +17,7 @@ package com.haloui.settings.fragments.lockscreen;
 
 import android.content.Context;
 import android.content.ContentResolver;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
