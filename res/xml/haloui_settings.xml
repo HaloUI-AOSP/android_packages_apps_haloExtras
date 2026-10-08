@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2026 haloUI
+
+  SPDX-License-Identifier: Apache-2.0
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/haloui_dashboard_title">
+
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="haloui_category">
+
+        <Preference
+            android:key="status_bar"
+            android:title="@string/status_bar_title"
+            android:summary="@string/status_bar_summary"
+            android:fragment="com.haloui.settings.fragments.statusbar.StatusBar" />
+
+        <Preference
+            android:key="quick_settings"
+            android:title="@string/quick_settings_title"
+            android:summary="@string/quick_settings_summary"
+            android:fragment="com.haloui.settings.fragments.quicksettings.QuickSettings" />
+
+        <Preference
+            android:key="buttons"
+            android:title="@string/button_pref_title"
+            android:summary="@string/button_pref_summary"
+            android:fragment="com.haloui.settings.fragments.buttons.ButtonSettings" />
+
+        <Preference
+            android:key="misc"
+            android:title="@string/misc_title"
+            android:summary="@string/misc_summary"
+            android:fragment="com.haloui.settings.fragments.misc.Miscellaneous" />
+
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
+
+</PreferenceScreen>

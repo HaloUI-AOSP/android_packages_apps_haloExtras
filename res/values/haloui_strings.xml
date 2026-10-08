@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2026 haloUI
+
+  SPDX-License-Identifier: Apache-2.0
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="haloui_dashboard_title">haloExtras</string>
+    <string name="haloui_dashboard_summary">Insert good summary here because I can\'t think of one yet</string>
+    <string name="security_title">Security</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">Some extra system settings we don\'t know where to put yet</string>
+    <string name="systemui_restart_title">SystemUI restart required</string>
+    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
+    <string name="systemui_restart_yes">Yes</string>
+    <string name="systemui_restart_not_now">Not now</string>
+    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
+    <string name="status_bar_summary">Clock, battery, network traffic and icons</string>
+    <string name="quick_settings_title">Quick settings</string>
+    <string name="quick_settings_summary">Pulldown and brightness slider</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_hide_arrows">Hide arrows</string>
+    <string name="network_traffic_hide_arrows_summary">Hide upload and download direction arrows</string>
+    <string name="network_traffic_mode_all">Upload and download</string>
+    <string name="network_traffic_mode_disable">Disabled</string>
+    <string name="network_traffic_mode_down">Download only</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_up">Upload only</string>
+    <string name="network_traffic_position_title">Position</string>
+    <string name="network_traffic_settings_summary">Show current network traffic levels in the status bar</string>
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_show_units">Show units</string>
+    <string name="network_traffic_show_units_compact">Compact</string>
+    <string name="network_traffic_show_units_off">Off</string>
+    <string name="network_traffic_show_units_on">On</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
+    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="status_bar_am_pm_hidden">Hidden</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_title">Battery indicator</string>
+    <string name="status_bar_brightness_category">Brightness</string>
+    <string name="status_bar_brightness_slider_auto_summary">Show toggle for adaptive brightness near the slider</string>
+    <string name="status_bar_brightness_slider_auto_title">Auto brightness</string>
+    <string name="status_bar_brightness_slider_position_bottom">Bottom</string>
+    <string name="status_bar_brightness_slider_position_title">Brightness slider position</string>
+    <string name="status_bar_brightness_slider_position_top">Top</string>
+    <string name="status_bar_brightness_slider_show_always">Show always</string>
+    <string name="status_bar_brightness_slider_show_expanded">Show when expanded</string>
+    <string name="status_bar_brightness_slider_show_never">Never show</string>
+    <string name="status_bar_brightness_slider_title">Brightness slider</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_title">Clock position</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_title">Clock</string>
+    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_quick_qs_pulldown_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_quick_qs_pulldown_right">Right</string>
+    <string name="status_bar_quick_qs_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Right</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+    <string name="status_bar_system_icons_title">System icons</string>
+    <string name="status_bar_title">Status bar</string>
+    <string name="button_pref_summary">Hardware keys, navigation and gestures</string>
+    <string name="power_menu_summary">Choose which actions appear in the power menu</string>
+    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="advanced">Advanced</string>
+    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_timeout_title">Illumination timeout</string>
+    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
+    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
+    <string name="button_backlight_seekbar_title">Button brightness</string>
+    <string name="button_backlight_title">Backlight</string>
+    <string name="button_pref_title">Buttons</string>
+    <string name="button_wake_title">Wake device</string>
+    <string name="camera_launch_summary">A longpress and release will launch camera</string>
+    <string name="camera_launch_title">Launch camera</string>
+    <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
+    <string name="camera_sleep_on_release_title">Screen peek</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="disable_navkeys_summary">Enable on-screen navigation bar and disable hardware buttons</string>
+    <string name="disable_navkeys_title">Enable on-screen nav bar</string>
+    <string name="extras_title">Extras</string>
+    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
+    <string name="hardware_keys_action_in_app_search">In-app search</string>
+    <string name="hardware_keys_action_kill_app">Kill foreground app</string>
+    <string name="hardware_keys_action_last_app">Last app</string>
+    <string name="hardware_keys_action_launch_camera">Launch camera</string>
+    <string name="hardware_keys_action_menu">Open/close menu</string>
+    <string name="hardware_keys_action_nothing">No action</string>
+    <string name="hardware_keys_action_partial_screenshot" translatable="false">Partial screenshot</string>
+    <string name="hardware_keys_action_play_pause_music" translatable="false">@string/touchscreen_gesture_action_play_pause_music</string>
+    <string name="hardware_keys_action_screenshot" translatable="false">@string/power_menu_screenshot_title</string>
+    <string name="hardware_keys_action_search">Search assistant</string>
+    <string name="hardware_keys_action_sleep">Turn screen off</string>
+    <string name="hardware_keys_action_split_screen">Split screen</string>
+    <string name="hardware_keys_action_voice_search">Voice search</string>
+    <string name="hardware_keys_appswitch_key_title">Recents button</string>
+    <string name="hardware_keys_assist_key_title">Search button</string>
+    <string name="hardware_keys_back_key_title">Back button</string>
+    <string name="hardware_keys_camera_key_title">Camera button</string>
+    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="hardware_keys_home_key_title">Home button</string>
+    <string name="hardware_keys_long_press_title">Long press action</string>
+    <string name="hardware_keys_menu_key_title">Menu button</string>
+    <string name="hardware_keys_power_key_title">Power button</string>
+    <string name="hardware_keys_short_press_title">Short press action</string>
+    <string name="hardware_keys_volume_keys_title">Volume buttons</string>
+    <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
+    <string name="home_answer_call_title">Answer call</string>
+    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
+    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
+    <string name="navigation_bar_app_switch_long_press_title">Recents long press action</string>
+    <string name="navigation_bar_back_long_press_title">Back long press action</string>
+    <string name="navigation_bar_category">Navigation bar</string>
+    <string name="navigation_bar_edge_long_swipe_title">Edge long swipe action</string>
+    <string name="navigation_bar_enable_taskbar_title">Enable taskbar</string>
+    <string name="navigation_bar_home_double_tap_title">Home double tap action</string>
+    <string name="navigation_bar_home_long_press_title">Home long press action</string>
+    <string name="power_end_call_summary">End the current call by pressing the power button</string>
+    <string name="power_end_call_title">End call</string>
+    <string name="power_menu_advanced_restart_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+    <string name="power_menu_advanced_restart_title">Advanced restart</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_bug_report_unavailable_for_user">Bug reporting is disabled for non-primary users.</string>
+    <string name="power_menu_devicecontrols_title">Device controls</string>
+    <string name="power_menu_emergency_affordance_enabled">Emergency affordance is enabled</string>
+    <string name="power_menu_emergency_title">Emergency</string>
+    <string name="power_menu_items_title">Power menu items</string>
+    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="swap_capacitive_keys_summary">Swap the order of recents and back buttons</string>
+    <string name="swap_capacitive_keys_title">Swap capacitive buttons</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="torch_long_press_power_gesture_desc">Activate the torch by long pressing the power button while the display is off</string>
+    <string name="torch_long_press_power_gesture_title">Long press for torch</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="touchscreen_gesture_action_play_pause_music">Play/pause music playback</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
+    <string name="volbtn_music_controls_summary">Seek music tracks by long pressing the volume keys while the display is off</string>
+    <string name="volbtn_music_controls_title">Control playback</string>
+    <string name="volume_answer_call_summary">Answer incoming calls by pressing the volume buttons</string>
+    <string name="volume_answer_call_title">Answer call</string>
+    <string name="volume_panel_position_left">Left</string>
+    <string name="volume_panel_position_right">Right</string>
+    <string name="volume_panel_position_title">Volume panel position</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="never">Never</string>
+    <string name="always">Always</string>
+    <string name="caution">Caution</string>
+    <string name="delete">Delete</string>
+    <string name="delete_message">Remove selected item?</string>
+    <string name="choose_app">Choose app</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="custom_color">Custom color</string>
+    <string name="restart_systemui">Restart SystemUI for change to take effect!</string>
+    <string name="default_value">Default</string>
+    <string name="apply">Apply</string>
+    <string name="show_system_apps">Show system apps</string>
+    <string name="hide_system_apps">Hide system apps</string>
+    <string name="search_apps">Search apps</string>
+    <string name="clear_search">Clear search</string>
+    <string name="select_all">Select all</string>
+    <string name="auto_select">Auto-select</string>
+    <string name="system_badge">SYS</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+</resources>
