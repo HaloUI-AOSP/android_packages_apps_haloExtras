@@ -11,6 +11,8 @@
     <string name="security_title">Security</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Some extra system settings we don\'t know where to put yet</string>
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
     <string name="systemui_restart_title">SystemUI restart required</string>
     <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
     <string name="systemui_restart_yes">Yes</string>
