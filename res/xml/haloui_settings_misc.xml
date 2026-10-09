@@ -11,7 +11,7 @@
     android:title="@string/misc_title">
 
     <!-- Ignore window secure flags -->
-    <com.haloui.settings.preferences.SecureSettingSwitchPreference
+    <com.haloui.settings.preferences.GlobalSettingSwitchPreference
         android:key="window_ignore_secure"
         android:title="@string/ignore_window_secure_title"
         android:summary="@string/ignore_window_secure_summary"
