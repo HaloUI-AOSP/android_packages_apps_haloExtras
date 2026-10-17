@@ -26,6 +26,12 @@
             android:fragment="com.haloui.settings.fragments.quicksettings.QuickSettings" />
 
         <Preference
+            android:key="lock_screen"
+            android:title="@string/lockscreen_title"
+            android:summary="@string/lockscreen_summary"
+            android:fragment="com.haloui.settings.fragments.lockscreen.LockScreen" />
+
+        <Preference
             android:key="buttons"
             android:title="@string/button_pref_title"
             android:summary="@string/button_pref_summary"
