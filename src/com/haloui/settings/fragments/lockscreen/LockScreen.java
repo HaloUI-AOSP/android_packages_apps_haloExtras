@@ -18,6 +18,7 @@ package com.haloui.settings.fragments.lockscreen;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.haloui.OmniJawsClient;
@@ -28,12 +29,15 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 @SearchIndexable
-public class LockScreen extends SettingsPreferenceFragment {
+public class LockScreen extends SettingsPreferenceFragment
+        implements Preference.OnPreferenceChangeListener {
 
     public static final String TAG = "LockScreen";
 
+    private static final String KEY_SMARTSPACE = "lockscreen_smartspace_enabled";
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
 
+    private SwitchPreferenceCompat mSmartspace;
     private Preference mWeather;
 
     @Override
@@ -42,14 +46,28 @@ public class LockScreen extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.haloui_settings_lock_screen);
 
+        mSmartspace = findPreference(KEY_SMARTSPACE);
+        mSmartspace.setOnPreferenceChangeListener(this);
+
         mWeather = findPreference(KEY_WEATHER);
         updateWeatherSettings();
     }
 
-    private void updateWeatherSettings() {
-        if (mWeather == null) return;
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mSmartspace) {
+            mSmartspace.setChecked((Boolean) newValue);
+            updateWeatherSettings();
+            return true;
+        }
+        return false;
+    }
 
-        boolean enabled = OmniJawsClient.get().isOmniJawsEnabled(getContext());
+    private void updateWeatherSettings() {
+        if (mWeather == null || mSmartspace == null) return;
+
+        boolean enabled = OmniJawsClient.get().isOmniJawsEnabled(getContext())
+                && !mSmartspace.isChecked();
         mWeather.setEnabled(enabled);
         mWeather.setSummary(enabled
                 ? R.string.lockscreen_weather_summary
