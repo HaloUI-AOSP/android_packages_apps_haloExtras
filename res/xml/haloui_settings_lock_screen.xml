@@ -43,6 +43,12 @@
             android:summary="@string/lockscreen_smartspace_summary"
             android:defaultValue="true" />
 
+        <!-- Pulse music visualizer -->
+        <Preference
+            android:key="pulse_settings"
+            android:title="@string/pulse_settings_title"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.haloui.settings.fragments.lockscreen.PulseSettings" />
         <!-- Lockscreen Media Art -->
         <Preference
             android:key="media_art_settings"
