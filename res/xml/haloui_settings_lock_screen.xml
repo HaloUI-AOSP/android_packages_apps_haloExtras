@@ -42,4 +42,11 @@
             android:title="@string/lockscreen_smartspace_title"
             android:summary="@string/lockscreen_smartspace_summary"
             android:defaultValue="true" />
+
+        <!-- Lockscreen Media Art -->
+        <Preference
+            android:key="media_art_settings"
+            android:title="@string/ls_media_art_title"
+            android:summary="@string/ls_media_art_summary"
+            android:fragment="com.haloui.settings.fragments.lockscreen.MediaArtSettings" />
 </PreferenceScreen>
