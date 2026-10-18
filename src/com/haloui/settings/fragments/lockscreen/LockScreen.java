@@ -28,6 +28,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.haloui.settings.utils.SystemUtils;
+
 @SearchIndexable
 public class LockScreen extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -58,6 +60,7 @@ public class LockScreen extends SettingsPreferenceFragment
         if (preference == mSmartspace) {
             mSmartspace.setChecked((Boolean) newValue);
             updateWeatherSettings();
+            SystemUtils.showSystemUiRestartDialog(getContext());
             return true;
         }
         return false;
